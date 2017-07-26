@@ -8,6 +8,8 @@ TablePlus build 56 and above
 
 # Install
 
+#### Build from source
+
 ```
 git clone git@github.com:TablePlus/DummiesData.git
 cd DummiesData/DummiesData.tableplusplugin
