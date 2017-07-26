@@ -1,0 +1,9 @@
+{
+    "name": "Fill Dummies Data",
+    "identifier": "com.tinyapp.TablePlus.DummiesData",
+    "version": "1.0",
+    "detail": "This plugin helps fill your empty table with funny text and quote for testing purpose",
+    "author": "TablePlus",
+    "authorEmail": "support@tableplus.io",
+    "main": "bundle.js"
+}
