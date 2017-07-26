@@ -10,21 +10,9 @@ TablePlus build 56 and above
 
 ```
 git clone git@github.com:TablePlus/DummiesData.git
-```
-
-# Develop
-
-Install Drowserify
-```
-npm install -g browserify
-```
-
-```
-cd DummiesData.tableplusplugin
+cd DummiesData/DummiesData.tableplusplugin
 npm install
-
-# build
-browserify main.js -o bundle.js
+npm run build
 ```
 
 Double click on DummiesData plugin to install it
