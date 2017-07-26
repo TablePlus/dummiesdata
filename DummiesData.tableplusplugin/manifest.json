@@ -5,5 +5,5 @@
     "detail": "This plugin helps fill your empty table with funny text and quote for testing purpose",
     "author": "TablePlus",
     "authorEmail": "support@tableplus.io",
-    "main": "bundle.js"
+    "script": "bundle.js"
 }

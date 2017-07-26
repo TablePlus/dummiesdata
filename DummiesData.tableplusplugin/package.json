@@ -1,0 +1,17 @@
+{
+  "name": "com.tinyapp.TablePlus.DummiesData.tableplusplugin",
+  "version": "1.0.0",
+  "description": "This plugin helps fill your empty table with funny text and quote for testing purpose",
+  "main": "main.js",
+  "dependencies": {
+    "random-sentence": "^1.0.4",
+    "webpack": "^3.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "https://tableplus.io",
+  "license": "MIT"
+}

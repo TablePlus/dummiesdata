@@ -5,11 +5,9 @@ var randomSentence = require('random-sentence');
 // Get table in opening tab
 var table = Workspace.currentTable();
 
-function main(context) {
-
-// Fetch table info
+var onRun = function(context) {
+    // Fetch table info
     table.info(function(info) {
-
         // Get table columns listing
         var columns = info['columns'];
         
@@ -42,8 +40,9 @@ function main(context) {
 
             table.addToInsert(row);
         }
-
         // Reload workspace view
         Workspace.reload();  
     });
 };
+
+global.onRun = onRun;
