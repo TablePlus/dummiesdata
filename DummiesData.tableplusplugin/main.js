@@ -3,11 +3,11 @@
 var randomSentence = require('random-sentence');
 
 // Get table in opening tab
-var table = workspace.currentTable();
+var table = workspace.selectedTable();
 
 var onRun = function(context) {
     // Check undefine
-    if (table == null || typeof(myVariable) != 'undefined') {
+    if (table == null) {
         workspace.alert('Fill Dummies Data', 'Please select a table first');
         return;
     }
@@ -31,7 +31,7 @@ var onRun = function(context) {
                     row.update(key, sentence);
                     row.setDefault(key, 0);
                 }
-                if (dataType == 'int4' && key != 'id') {
+                if (dataType == 'int4' && dataType == 'int8' && key != 'id') {
                     var number = Math.floor(Math.random() * 1000000);
                     row.update(key, number);
                     row.setDefault(key, 0);
