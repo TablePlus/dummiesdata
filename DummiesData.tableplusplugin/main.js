@@ -11,6 +11,7 @@ var onRun = function(context) {
         // Get table columns listing
         var columns = info['columns'];
         
+        // Create 10 rows random
         for (var i = 0; i < 10; i++) {
             // Add empty row
             var row = table.addEmptyRow(columns); 
@@ -38,6 +39,7 @@ var onRun = function(context) {
                 }
             });
 
+            // After update row data, add it to table again
             table.addToInsert(row);
         }
         // Reload workspace view
