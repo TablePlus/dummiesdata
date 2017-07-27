@@ -3,9 +3,14 @@
 var randomSentence = require('random-sentence');
 
 // Get table in opening tab
-var table = Workspace.currentTable();
+var table = workspace.currentTable();
 
 var onRun = function(context) {
+    // Check undefine
+    if (table == null || typeof(myVariable) != 'undefined') {
+        workspace.alert('Fill Dummies Data', 'Please select a table first');
+        return;
+    }
     // Fetch table info
     table.info(function(info) {
         // Get table columns listing
@@ -51,7 +56,7 @@ var onRun = function(context) {
             table.addToInsert(row);
         }
         // Reload workspace view
-        Workspace.reload();
+        workspace.reload();
     });
 };
 
