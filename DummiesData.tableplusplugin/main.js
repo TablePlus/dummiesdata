@@ -2,13 +2,13 @@
 
 var randomSentence = require('random-sentence');
 
-// Get table in opening tab
-var table = workspace.selectedTable();
-
 var onRun = function(context) {
+    // Get table in opening tab
+    var table = context.selectedTable();
+
     // Check undefine
     if (table == null) {
-        workspace.alert('Fill Dummies Data', 'Please select a table first');
+        context.alert('Fill Dummies Data', 'Please select a table first');
         return;
     }
     // Fetch table info
@@ -56,7 +56,7 @@ var onRun = function(context) {
             table.addToInsert(row);
         }
         // Reload workspace view
-        workspace.reload();
+        context.reload();
     });
 };
 
