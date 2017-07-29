@@ -1,6 +1,7 @@
 # This is an example for TablePlus Plugin
 
 Generate dummies data for text, string, integer and timestamp fields.
+![DemoDummiesData](https://media.giphy.com/media/l41JUfxhRuvHZH9Ju/giphy.gif)
 
 # Support
 
