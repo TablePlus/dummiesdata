@@ -29,3 +29,7 @@ Double click on `DummiesData.tableplusplugin` to install the Plugin.
 2. Open a table.
 3. Click on Plugin icon in the left side bar or press `command + L`.
 4. Click `run` in the Plugin.
+
+# License
+
+DummiesData is released under the MIT license. See [LICENSE](https://github.com/TablePlus/DummiesData/blob/master/LICENSE) for details.
