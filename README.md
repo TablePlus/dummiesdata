@@ -8,6 +8,8 @@ TablePlus build 56 and above
 
 # Install
 
+#### The latest release [DummiesData.zip](https://github.com/TablePlus/DummiesData/files/1185177/DummiesData.zip)
+
 #### Build from source
 
 ```
