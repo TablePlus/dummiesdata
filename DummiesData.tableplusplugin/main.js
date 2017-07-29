@@ -15,6 +15,7 @@ var onRun = function(context) {
     table.info(function(info) {
         // Get table columns listing
         var columns = info['columns'];
+        var primary = info['primary'];
 
         // Create 10 rows random
         for (var i = 0; i < 10; i++) {
@@ -31,7 +32,7 @@ var onRun = function(context) {
                     row.update(key, sentence);
                     row.setDefault(key, 0);
                 }
-                if (dataType == 'int4' && dataType == 'int8' && key != 'id') {
+                if ((dataType == 'int4' || dataType == 'int8') && !primary.includes(key)) {
                     var number = Math.floor(Math.random() * 1000000);
                     row.update(key, number);
                     row.setDefault(key, 0);
