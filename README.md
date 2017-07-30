@@ -22,8 +22,6 @@ npm install
 npm run build
 ```
 
-Double click on `DummiesData.tableplusplugin` to install the Plugin.
-
 # How to use
 
 1. Open a connection.
