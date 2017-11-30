@@ -11,18 +11,6 @@
     		"name": "Create rows dummies",
     		"script": "createDummies.js",
     		"shortcut": "control+shift+m"
-    	},
-        {
-            "type": "main",
-            "name": "Create tables dummies",
-            "script": "createDummies.js",
-            "shortcut": "control+shift+x"
-        },
-        {
-            "type": "main",
-            "name": "Create databases dummies",
-            "script": "createDummies.js",
-            "shortcut": "control+shift+k"
-        }
+    	}
     ]
 }
