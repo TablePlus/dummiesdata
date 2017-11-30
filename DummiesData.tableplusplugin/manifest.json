@@ -7,10 +7,16 @@
     "authorEmail": "support@tableplus.io",
     "scripts": [
     	{
+            "children": [
+                {
+                    "children": [],
+                    "name": "Add 10 dummies rows",
+                    "script": "createDummies.js",
+                    "shortcut": "control+shift+m"
+                }
+            ],
     		"type": "main",
-    		"name": "Create rows dummies",
-    		"script": "createDummies.js",
-    		"shortcut": "control+shift+m"
+    		"name": "Create dummies data",
     	}
     ]
 }
