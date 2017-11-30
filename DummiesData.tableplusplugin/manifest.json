@@ -5,5 +5,24 @@
     "detail": "This plugin helps fill your empty table with funny text and quote for testing purpose",
     "author": "TablePlus",
     "authorEmail": "support@tableplus.io",
-    "script": "bundle.js"
+    "scripts": [
+    	{
+    		"type": "main",
+    		"name": "Create rows dummies",
+    		"script": "createDummies.js",
+    		"shortcut": "control+shift+m"
+    	},
+        {
+            "type": "main",
+            "name": "Create tables dummies",
+            "script": "createDummies.js",
+            "shortcut": "control+shift+x"
+        },
+        {
+            "type": "main",
+            "name": "Create databases dummies",
+            "script": "createDummies.js",
+            "shortcut": "control+shift+k"
+        }
+    ]
 }

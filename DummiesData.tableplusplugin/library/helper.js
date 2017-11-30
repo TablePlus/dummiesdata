@@ -14,18 +14,18 @@ var insertRow = function(table, columns, primary) {
         if (dataType == 'varchar' || dataType == 'text') {
             var sentence = randomSentence();
             row.update(key, sentence);
-            row.setDefault(key, 0);
+            row.setConstant(key, "");
         }
         if ((dataType == 'int4' || dataType == 'int8') && !primary.includes(key)) {
             var number = Math.floor(Math.random() * 1000000);
             row.update(key, number);
-            row.setDefault(key, 0);
+            row.setConstant(key, "");
         }
         if (dataType == 'timestamp') {
             var t = new Date();
             var formatted = t.toISOString();
             row.update(key, formatted);
-            row.setDefault(key, 0);
+            row.setConstant(key, "");
         }
         if (dataType == 'bool') {
             if (Math.random() >= 0.5) {
@@ -33,7 +33,7 @@ var insertRow = function(table, columns, primary) {
             } else {
                 row.update(key, 'f');
             }
-            row.setDefault(key, 0);
+            row.setConstant(key, "");
         }
     });
 
