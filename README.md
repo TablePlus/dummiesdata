@@ -9,7 +9,7 @@ TablePlus build 56 and above.
 
 # Install
 
-### The latest release [DummiesData.zip](https://github.com/TablePlus/DummiesData/files/1185177/DummiesData.zip)
+### The latest release [DummiesData.zip](https://github.com/TablePlus/DummiesData/files/1517390/DummiesData.zip)
 
 Unzip and double click on `DummiesData.tableplusplugin` to install the Plugin.
 
