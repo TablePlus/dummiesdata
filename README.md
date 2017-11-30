@@ -1,7 +1,6 @@
 # This is an example for TablePlus Plugin
 
 Generate dummies data for text, string, integer and timestamp fields.
-![DemoDummiesData](https://media.giphy.com/media/l41JUfxhRuvHZH9Ju/giphy.gif)
 
 # Support
 
@@ -29,8 +28,7 @@ Table a look at early access [APIs](https://github.com/TablePlus/TablePlus/wiki/
 
 1. Open a connection.
 2. Open a table.
-3. Click on Plugin icon in the left side bar or press `command + L`.
-4. Click `run` in the Plugin.
+3. Menu > Plugins > Create dummies data > Add 10 dummies rows.
 
 # License
 
