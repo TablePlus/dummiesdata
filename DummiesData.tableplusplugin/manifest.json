@@ -6,17 +6,23 @@
     "author": "TablePlus",
     "authorEmail": "support@tableplus.io",
     "scripts": [
+         {
+            "location": "main",
+            "type": "separator"
+        },
     	{
             "children": [
                 {
                     "children": [],
+                    "type": "action",
                     "name": "Add 10 dummies rows",
                     "script": "createDummies.js",
                     "shortcut": "control+shift+m"
                 }
             ],
-    		"type": "main",
-    		"name": "Create dummies data",
+            "location": "main",
+            "type": "submenu",
+            "name": "Create dummies data"
     	}
     ]
 }
